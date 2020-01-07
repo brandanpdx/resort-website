@@ -1,21 +1,26 @@
 body {
+  
   background-image: url("../img/island.jpeg");
   background-repeat: no-repeat;
   background-size: 2300px;
+  background-color: black;
+  opacity: 0.9;
+ 
 }
 
 div {
   max-width: 1300px;
   margin: auto;
+  margin-top: 15px;
 }
 
 h1 {
   text-align: center;
   font-family: Zapfino;
-  font-size: 90px;
+  font-size: 70px;
   color: #fefefe;
-  margin-top: 10px;
-  margin-bottom: 10px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 nav {
@@ -38,7 +43,9 @@ p {
   font-family: helvetica;
 }
 
-a: :visited {
-  text-decoration: none;
-  color: red;
+#container {
+  border: 2px solid black;
+  max-width: 600px;
+  background-color: black;
+  opacity: 0.8;
 }
