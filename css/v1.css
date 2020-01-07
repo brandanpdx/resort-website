@@ -1,0 +1,26 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 2300px;
+}
+
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 90px;
+  color: #fefefe;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+  font-family: helvetica;
+  font-size: 20px;
+  color: #fefefe;
+}
