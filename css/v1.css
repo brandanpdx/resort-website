@@ -4,13 +4,19 @@ body {
   background-size: 2300px;
 }
 
+div {
+  border: 2px solid black;
+  max-width: 1300px;
+  margin: auto;
+}
+
 h1 {
   text-align: center;
-  font-family: helvetica;
+  font-family: Zapfino;
   font-size: 90px;
   color: #fefefe;
   margin-top: 10px;
-  border: 2px solid black;
+  margin-bottom: 10px; 
 }
 
 nav {
@@ -23,4 +29,12 @@ nav li {
   font-family: helvetica;
   font-size: 20px;
   color: #fefefe;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  color: #fefefe;
+  font-size: 30px;
+  font-family: helvetica;
 }
