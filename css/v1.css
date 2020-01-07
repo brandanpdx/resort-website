@@ -5,7 +5,6 @@ body {
 }
 
 div {
-  border: 2px solid black;
   max-width: 1300px;
   margin: auto;
 }
